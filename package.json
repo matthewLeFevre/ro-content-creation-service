@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "@everlast-brands/error-handling": "^3.0.1",
+    "@everlast-brands/local-collection": "^2.0.0",
     "@everlast-brands/utility-functions": "^0.1.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
