@@ -1,3 +1,13 @@
-import Service from "../../utilities/service";
+import create from "./methods/create";
+import getAll from "./methods/getAll";
+import update from "./methods/update";
+import remove from "./methods/remove";
 
-export default class SettlementService extends Service {}
+const SettlementController = {
+  create,
+  getAll,
+  update,
+  remove,
+};
+
+export default SettlementController;

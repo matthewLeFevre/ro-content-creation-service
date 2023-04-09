@@ -1,3 +1,10 @@
-import Service from "../../utilities/service";
+import { Router } from "express";
 
-export default class EventService extends Service {}
+const EventRouter = Router();
+
+EventRouter.get("/");
+EventRouter.post("/");
+EventRouter.put("/:id");
+EventRouter.delete("/:id");
+
+export default EventRouter;

@@ -13,6 +13,7 @@ const validation = [
 export default [
   ...validation,
   asyncWrapper(async (req: Request, res) => {
-    send({ res });
+    const developments = await req.services.development.getAll();
+    send({ res, data: { developments } });
   }),
 ];

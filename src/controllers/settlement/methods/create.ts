@@ -3,23 +3,32 @@ import validationCheck from "../../../middleware/validationCheck";
 import { asyncWrapper, send } from "@everlast-brands/error-handling";
 import { Request } from "express";
 import { randomUUID } from "crypto";
+import datasetCheck from "../../../middleware/datasetCheck";
 
 const validation = [
   body("name").exists(),
   body("description").exists(),
-  body("iconSrc").exists(),
-  body("dataSets").exists(),
+  body("spriteSheetSrc").exists(),
+  body("datasets").exists(),
+  body("location").exists(),
+  body("villages").exists(),
+  body("startingBuildings").exists(),
+  body("startingGarrison").exists(),
+  body("startingDistricts").exists(),
+  body("nationId").exists(),
+  body("startingPopulation").isInt().exists(),
   validationCheck,
+  datasetCheck(),
 ];
 
 export default [
   ...validation,
   asyncWrapper(async (req: Request, res) => {
-    await req.services.resource.createWithId(
+    await req.services.settlement.createWithId(
       req.body,
-      `resource-${randomUUID}`
+      `settlement-${randomUUID()}`
     );
-    const resources = await req.services.resource.getAll();
-    send({ res, data: { resources } });
+    const settlements = await req.services.settlement.getAll();
+    send({ res, data: { settlements } });
   }),
 ];

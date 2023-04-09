@@ -13,6 +13,7 @@ const validation = [
 export default [
   ...validation,
   asyncWrapper(async (req: Request, res) => {
-    send({ res });
+    const nations = await req.services.nation.getAll();
+    send({ res, data: { nations } });
   }),
 ];

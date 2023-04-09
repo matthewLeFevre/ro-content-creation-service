@@ -1,3 +1,13 @@
-import Service from "../../utilities/service";
+import create from "./methods/create";
+import getAll from "./methods/getAll";
+import remove from "./methods/remove";
+import update from "./methods/update";
 
-export default class UnitService extends Service {}
+const UnitController = {
+  create,
+  getAll,
+  remove,
+  update,
+};
+
+export default UnitController;

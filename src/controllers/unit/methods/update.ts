@@ -13,6 +13,7 @@ const validation = [
 export default [
   ...validation,
   asyncWrapper(async (req: Request, res) => {
-    send({ res });
+    const units = await req.services.unit.getAll();
+    send({ res, data: { units } });
   }),
 ];
