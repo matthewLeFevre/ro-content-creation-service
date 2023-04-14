@@ -4,7 +4,7 @@ import { Request } from "express";
 export default function datasetCheck() {
   return asyncWrapper(
     async (req: Request, res, next) => {
-      const datasetIds = req.body.datasets;
+      const datasetIds = req.body.datasetIds;
       if (datasetIds.length < 1)
         return send({
           res,

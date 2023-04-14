@@ -6,10 +6,10 @@ import { randomUUID } from "crypto";
 import datasetCheck from "../../../middleware/datasetCheck";
 
 const validation = [
-  body("name").exists(),
-  body("description").exists(),
-  body("iconSrc").exists(),
-  body("datasets").exists(),
+  body("name").notEmpty().exists(),
+  body("description").notEmpty().exists(),
+  body("iconSrc").notEmpty().exists(),
+  body("datasetIds").notEmpty().exists(),
   body("isUnique").isBoolean().exists(),
   validationCheck,
   datasetCheck(),

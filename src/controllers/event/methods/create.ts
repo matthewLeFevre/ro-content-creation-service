@@ -8,7 +8,7 @@ const validation = [
   body("name").exists(),
   body("description").exists(),
   body("iconSrc").exists(),
-  body("dataSets").exists(),
+  body("dataSetIds").exists(),
   validationCheck,
 ];
 

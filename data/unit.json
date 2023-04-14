@@ -1,1 +1,1 @@
-[{"name":"Levy","description":"Peasants forced to enlist in military service.","iconSrc":"","datasets":["dataset-b2b8c3c1-84b2-44eb-af06-983399d793ad"],"cost":[],"upkeep":[{"id":"resource-7ff98560-58ee-4c4c-a2c7-9baf0ad3518f","quantity":1}],"meleeAttack":5,"rangeAttack":0,"defence":10,"speed":8,"requiredBuildings":[],"trainTime":0,"id":"unit-b3d3761e-4745-457f-9f7d-7d665705aee9"}]
+[]

@@ -14,7 +14,8 @@ const validation = [
   body("cost").exists(),
   body("upkeep").exists(),
   body("improvements").exists(),
-  body("datasets").exists(),
+  body("datasetIds").exists(),
+  body("upgradesTo").optional(),
   validationCheck,
   datasetCheck(),
 ];

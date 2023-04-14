@@ -5,8 +5,8 @@ import { Request } from "express";
 import { randomUUID } from "crypto";
 
 const validation = [
-  body("name").exists(),
-  body("description").exists(),
+  body("name").notEmpty().exists(),
+  body("description").notEmpty().exists(),
   validationCheck,
 ];
 

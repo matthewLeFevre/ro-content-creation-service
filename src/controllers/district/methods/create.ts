@@ -9,7 +9,7 @@ const validation = [
   body("name").exists(),
   body("description").exists(),
   body("iconSrc").exists(),
-  body("datasets").exists(),
+  body("datasetIds").exists(),
   body("cost").exists(),
   body("upkeep").exists(),
   body("buildTime").isInt().exists(),
