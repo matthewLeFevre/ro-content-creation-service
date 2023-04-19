@@ -17,7 +17,7 @@ import SettlementRouter from "./routes/settlement";
 import ResourceRouter from "./routes/resource";
 import NationRouter from "./routes/nation";
 import GameRouter from "./routes/game";
-import EventRouter from "./routes/district";
+import EventRouter from "./routes/event";
 import DevelopmentRouter from "./routes/development";
 import BuildingRouter from "./routes/building";
 import DistrictRouter from "./routes/district";
