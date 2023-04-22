@@ -8,18 +8,22 @@ const validation = [
   body("name").exists(),
   body("description").exists(),
   body("iconSrc").exists(),
-  body("dataSetIds").exists(),
+  body("datasetIds").exists(),
+  body("nationIds").isArray().exists(),
+  body("size").isObject().exists(),
+  body("speed").isInt().exists(),
+  body("mapSrc").optional(),
+  body("territories").isArray().optional(),
+  body("monthTime").isInt(),
+  body("yearTime").isInt(),
   validationCheck,
 ];
 
 export default [
   ...validation,
   asyncWrapper(async (req: Request, res) => {
-    await req.services.resource.createWithId(
-      req.body,
-      `resource-${randomUUID}`
-    );
-    const resources = await req.services.resource.getAll();
-    send({ res, data: { resources } });
+    await req.services.game.createWithId(req.body, `game-${randomUUID}`);
+    const games = await req.services.game.getAll();
+    send({ res, data: { games } });
   }),
 ];

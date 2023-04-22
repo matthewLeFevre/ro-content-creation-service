@@ -23,6 +23,8 @@ import BuildingRouter from "./routes/building";
 import DistrictRouter from "./routes/district";
 import DatasetService from "./services/dataset";
 import DatasetRouter from "./routes/dataset";
+import ArmyService from "./services/army";
+import ProfileService from "./services/profile";
 
 export default function createServer(connect: Function) {
   dotenv.config();
@@ -45,6 +47,8 @@ export default function createServer(connect: Function) {
     resource,
     settlement,
     unit,
+    army,
+    profile,
   } = collections;
 
   const biomeService = new BiomeService(biome);
@@ -58,6 +62,8 @@ export default function createServer(connect: Function) {
   const resourceService = new ResourceService(resource);
   const settlementService = new SettlementService(settlement);
   const unitService = new UnitService(unit);
+  const armyService = new ArmyService(army);
+  const profileService = new ProfileService(profile);
 
   const services = {
     biome: biomeService,
@@ -71,6 +77,8 @@ export default function createServer(connect: Function) {
     resource: resourceService,
     settlement: settlementService,
     unit: unitService,
+    army: armyService,
+    profile: profileService,
   };
 
   biomeService.inject(services);
@@ -84,6 +92,8 @@ export default function createServer(connect: Function) {
   resourceService.inject(services);
   settlementService.inject(services);
   unitService.inject(services);
+  armyService.inject(services);
+  profileService.inject(services);
 
   app.use((req, res, next) => {
     req.services = services;

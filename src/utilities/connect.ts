@@ -12,6 +12,8 @@ export default function connect() {
   const resource = new Collection("resource", "./data/resource.json");
   const settlement = new Collection("settlement", "./data/settlement.json");
   const unit = new Collection("unit", "./data/unit.json");
+  const army = new Collection("army", "./data/army.json");
+  const profile = new Collection("profile", "./data/profile.json");
   return {
     biome,
     building,
@@ -24,5 +26,7 @@ export default function connect() {
     resource,
     settlement,
     unit,
+    army,
+    profile,
   };
 }

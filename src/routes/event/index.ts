@@ -1,8 +1,9 @@
 import { Router } from "express";
+import EventController from "../../controllers/event";
 
 const EventRouter = Router();
 
-EventRouter.get("/");
+EventRouter.get("/", EventController.getAll);
 EventRouter.post("/");
 EventRouter.put("/:id");
 EventRouter.delete("/:id");
