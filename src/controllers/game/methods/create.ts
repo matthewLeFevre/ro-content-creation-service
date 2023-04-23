@@ -22,7 +22,7 @@ const validation = [
 export default [
   ...validation,
   asyncWrapper(async (req: Request, res) => {
-    await req.services.game.createWithId(req.body, `game-${randomUUID}`);
+    await req.services.game.createWithId(req.body, `game-${randomUUID()}`);
     const games = await req.services.game.getAll();
     send({ res, data: { games } });
   }),
