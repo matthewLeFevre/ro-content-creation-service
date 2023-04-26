@@ -16,11 +16,18 @@ const validation = [
 
 export default [
   ...validation,
-  asyncWrapper(async (req: Request, res) => {
-    const resource = await req.services.resource.get(req.params.id);
-    const updatedResource = update(req.body, resource);
-    await req.services.resource.update(resource.id, updatedResource);
-    const resources = await req.services.resource.getAll();
-    send({ res, data: { resources } });
-  }),
+  asyncWrapper(
+    async (req: Request, res) => {
+      const resource = await req.services.resource.get(req.params.id);
+      const updatedResource = update(req.body, resource);
+      await req.services.resource.update(resource.id, updatedResource);
+      const resources = await req.services.resource.getAll();
+      send({ res, data: { resources } });
+    },
+    {
+      development: {
+        sendAllErrors: true,
+      },
+    }
+  ),
 ];
