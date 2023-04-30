@@ -1,1 +1,38 @@
-[{"name":"Northumbria Test","description":"Northernmost none barbarian nation","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/nations%2Fbritan%2FNorthumbria_200.png?alt=media&token=a3757d99-7299-4c1d-b145-d27abf01dfda","trainableUnitIds":["unit-a69cfb88-ea24-46f2-a0f0-3661c491e15c","unit-fca80ccb-e112-4cf1-b249-c90006607768","unit-17f90bd7-b82e-40b1-8315-b08739dab3c7"],"buildableBuildingIds":["building-3ca9d9a4-8380-484a-a14e-8b1ddbacf7de","building-2e49a69f-df5d-4320-8123-19c2bf809b67","building-34933978-9dc4-40ff-a6da-4b1ae40fb52f","building-f08b8db3-0366-447c-b488-42ea9429f932","building-cf53771e-dddc-4cdb-bdb9-31c2118d378e","building-af8ceda9-f0da-4a83-b14e-64b3cf2ea8a2","building-c926efb5-63ff-49e0-ae48-f1bd1e023a3d","building-8abb70e8-3bab-4bb0-bbcc-4f5972c28fda","building-127f95d6-9760-404b-858d-6d8ab523fd39"],"color":"#F4F42C","playable":true,"startingCameraLocation":{"x":1000,"y":1000},"profileId":"norm","id":"nation-1e3fca59-b1c6-408d-bb68-4d6420091fd8"}]
+[
+  {
+    "name": "Northumbria Test",
+    "description": "Northernmost none barbarian nation",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/nations%2Fbritan%2FNorthumbria_200.png?alt=media&token=a3757d99-7299-4c1d-b145-d27abf01dfda",
+    "trainableUnitIds": [
+      "unit-a69cfb88-ea24-46f2-a0f0-3661c491e15c",
+      "unit-fca80ccb-e112-4cf1-b249-c90006607768",
+      "unit-17f90bd7-b82e-40b1-8315-b08739dab3c7"
+    ],
+    "buildableBuildingIds": [
+      "building-3ca9d9a4-8380-484a-a14e-8b1ddbacf7de",
+      "building-2e49a69f-df5d-4320-8123-19c2bf809b67",
+      "building-34933978-9dc4-40ff-a6da-4b1ae40fb52f",
+      "building-f08b8db3-0366-447c-b488-42ea9429f932",
+      "building-cf53771e-dddc-4cdb-bdb9-31c2118d378e",
+      "building-af8ceda9-f0da-4a83-b14e-64b3cf2ea8a2",
+      "building-c926efb5-63ff-49e0-ae48-f1bd1e023a3d",
+      "building-8abb70e8-3bab-4bb0-bbcc-4f5972c28fda",
+      "building-127f95d6-9760-404b-858d-6d8ab523fd39"
+    ],
+
+    "color": "#F4F42C",
+    "playable": true,
+    "startingCameraLocation": { "x": 1000, "y": 1000 },
+    "profileId": "norm",
+    "id": "nation-1e3fca59-b1c6-408d-bb68-4d6420091fd8",
+    "taxResourceId": "resource-026c5412-779c-4119-a2ad-7efef42db437",
+    "popUpkeepResourceId": "resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab",
+    "startingResources": [
+      {
+        "id": "resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab",
+        "quantity": "300"
+      }
+    ]
+  }
+]

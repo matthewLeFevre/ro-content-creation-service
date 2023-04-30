@@ -1,1 +1,282 @@
-[{"name":"Pallisade Wall","description":"Sharpened logs that forms a perimeter around the settlement.","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"1000"}],"upkeep":[],"buildTime":90,"improvements":[{"id":"fortificationDefense","key":"fortificationDefense","value":"50"}],"level":1,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fpallisade-wall.jpg?alt=media&token=847f4bbc-2611-4259-9058-e81520d51ec2","id":"building-3ca9d9a4-8380-484a-a14e-8b1ddbacf7de"},{"name":"Great Keep","description":"Level 3 Admin Building","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"1000"},{"id":"resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","quantity":"1000"},{"id":"resource-bc76a657-45e0-45ef-895a-91f4418e7adc","quantity":"500"}],"upkeep":[],"buildTime":300,"improvements":[{"id":"PopCap","key":"PopCap","value":"50"},{"id":"DistrictCap","key":"DistrictCap","value":"5"},{"id":"BuildingCap","key":"BuildingCap","value":"14"},{"id":"level","key":"level","value":"3"},{"id":"fortificationDefense","key":"fortificationDefense","value":"100"}],"level":3,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","id":"building-2e49a69f-df5d-4320-8123-19c2bf809b67"},{"name":"Stone Keep","description":"Level 2 Admin Building","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"1000"},{"id":"resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","quantity":"500"},{"id":"resource-bc76a657-45e0-45ef-895a-91f4418e7adc","quantity":"200"}],"upkeep":[],"buildTime":300,"improvements":[{"id":"PopCap","key":"PopCap","value":"50"},{"id":"DistrictCap","key":"DistrictCap","value":"5"},{"id":"level","key":"level","value":"1"},{"id":"fortificationDefense","key":"fortificationDefense","value":"100"},{"id":"gqipE","key":"PopGrowthRate","value":[".03",".01"]}],"level":2,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","upgradesTo":"building-2e49a69f-df5d-4320-8123-19c2bf809b67","id":"building-34933978-9dc4-40ff-a6da-4b1ae40fb52f"},{"name":"Wood Keep","description":"Level 1 Admin Building","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[],"upkeep":[],"buildTime":0,"improvements":[{"id":"PopCap","key":"PopCap","value":"100"},{"id":"DistrictCap","key":"DistrictCap","value":"10"},{"id":"BuildingCap","key":"BuildingCap","value":"3"},{"id":"qCoOb","key":"PopGrowthRate","value":["0.04","0.1"]},{"id":"level","key":"level","value":"1"}],"level":1,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","upgradesTo":"building-34933978-9dc4-40ff-a6da-4b1ae40fb52f","id":"building-f08b8db3-0366-447c-b488-42ea9429f932"},{"name":"Granary","description":"Dedicated food storage facility","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"200"}],"upkeep":[],"buildTime":50,"improvements":[{"key":"resourceBonusPercent","id":"ZTSM0","value":["resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab","10"]}],"level":1,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","id":"building-cf53771e-dddc-4cdb-bdb9-31c2118d378e"},{"name":"Tool Smith","description":"Crafts advanced tools that aid in resource collection","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","quantity":"50"},{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"200"},{"id":"resource-bc76a657-45e0-45ef-895a-91f4418e7adc","quantity":"20"}],"upkeep":[],"buildTime":100,"improvements":[{"key":"resourceBonusPercent","id":"LOJ2B","value":["resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","10"]},{"key":"resourceBonusPercent","id":"SCpRw","value":["resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","10"]},{"key":"resourceBonusPercent","id":"lDKk9","value":["resource-bc76a657-45e0-45ef-895a-91f4418e7adc","10"]}],"level":2,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","id":"building-af8ceda9-f0da-4a83-b14e-64b3cf2ea8a2"},{"name":"Weapon Smith","description":"Consumes iron to create high quality weapons","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"200"},{"id":"resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","quantity":"50"},{"id":"resource-bc76a657-45e0-45ef-895a-91f4418e7adc","quantity":"50"}],"upkeep":[{"id":"resource-bc76a657-45e0-45ef-895a-91f4418e7adc","quantity":"5"}],"buildTime":100,"improvements":[],"level":2,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","id":"building-c926efb5-63ff-49e0-ae48-f1bd1e023a3d"},{"name":"Armor Smith","description":"Consumes iron to create high quality armor","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"200"},{"id":"resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","quantity":"50"},{"id":"resource-bc76a657-45e0-45ef-895a-91f4418e7adc","quantity":"50"}],"upkeep":[{"id":"resource-bc76a657-45e0-45ef-895a-91f4418e7adc","quantity":"10"}],"buildTime":100,"improvements":[],"level":3,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","id":"building-8abb70e8-3bab-4bb0-bbcc-4f5972c28fda"},{"name":"Apothecary","description":"Medicines and herbs to increase health and fertility","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"cost":[{"id":"resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5","quantity":"150"},{"id":"resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","quantity":"20"},{"id":"resource-026c5412-779c-4119-a2ad-7efef42db437","quantity":"20"}],"upkeep":[],"buildTime":0,"improvements":[{"id":"PopCap","key":"PopCap","value":"20"},{"id":"L5Fbl","key":"PopGrowthRate","value":[0,"0.05"]}],"level":1,"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897","id":"building-127f95d6-9760-404b-858d-6d8ab523fd39"}]
+[
+  {
+    "name": "Pallisade Wall",
+    "description": "Sharpened logs that forms a perimeter around the settlement.",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "1000"
+      }
+    ],
+    "upkeep": [],
+    "buildTime": 90,
+    "improvements": [
+      {
+        "id": "fortificationDefense",
+        "key": "fortificationDefense",
+        "value": "50"
+      }
+    ],
+    "level": 1,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fpallisade-wall.jpg?alt=media&token=847f4bbc-2611-4259-9058-e81520d51ec2",
+    "id": "building-3ca9d9a4-8380-484a-a14e-8b1ddbacf7de",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Great Keep",
+    "description": "Level 3 Admin Building",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "1000"
+      },
+      {
+        "id": "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+        "quantity": "1000"
+      },
+      {
+        "id": "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+        "quantity": "500"
+      }
+    ],
+    "upkeep": [],
+    "buildTime": 300,
+    "improvements": [
+      { "id": "PopCap", "key": "PopCap", "value": "50" },
+      { "id": "DistrictCap", "key": "DistrictCap", "value": "5" },
+      { "id": "BuildingCap", "key": "BuildingCap", "value": "14" },
+      { "id": "level", "key": "level", "value": "3" },
+      {
+        "id": "fortificationDefense",
+        "key": "fortificationDefense",
+        "value": "100"
+      }
+    ],
+    "level": 3,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "id": "building-2e49a69f-df5d-4320-8123-19c2bf809b67",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Stone Keep",
+    "description": "Level 2 Admin Building",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "1000"
+      },
+      {
+        "id": "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+        "quantity": "500"
+      },
+      {
+        "id": "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+        "quantity": "200"
+      }
+    ],
+    "upkeep": [],
+    "buildTime": 300,
+    "improvements": [
+      { "id": "PopCap", "key": "PopCap", "value": "50" },
+      { "id": "DistrictCap", "key": "DistrictCap", "value": "5" },
+      { "id": "level", "key": "level", "value": "1" },
+      {
+        "id": "fortificationDefense",
+        "key": "fortificationDefense",
+        "value": "100"
+      },
+      { "id": "gqipE", "key": "PopGrowthRate", "value": [".03", ".01"] }
+    ],
+    "level": 2,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "upgradesTo": "building-2e49a69f-df5d-4320-8123-19c2bf809b67",
+    "id": "building-34933978-9dc4-40ff-a6da-4b1ae40fb52f",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Wood Keep",
+    "description": "Level 1 Admin Building",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [],
+    "upkeep": [],
+    "buildTime": 0,
+    "improvements": [
+      { "id": "PopCap", "key": "PopCap", "value": "100" },
+      { "id": "DistrictCap", "key": "DistrictCap", "value": "10" },
+      { "id": "BuildingCap", "key": "BuildingCap", "value": "3" },
+      { "id": "qCoOb", "key": "PopGrowthRate", "value": ["0.04", "0.1"] },
+      { "id": "level", "key": "level", "value": "1" }
+    ],
+    "level": 1,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "upgradesTo": "building-34933978-9dc4-40ff-a6da-4b1ae40fb52f",
+    "id": "building-f08b8db3-0366-447c-b488-42ea9429f932",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Granary",
+    "description": "Dedicated food storage facility",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "200"
+      }
+    ],
+    "upkeep": [],
+    "buildTime": 50,
+    "improvements": [
+      {
+        "key": "resourceBonusPercent",
+        "id": "ZTSM0",
+        "value": ["resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab", "10"]
+      }
+    ],
+    "level": 1,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "id": "building-cf53771e-dddc-4cdb-bdb9-31c2118d378e",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Tool Smith",
+    "description": "Crafts advanced tools that aid in resource collection",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+        "quantity": "50"
+      },
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "200"
+      },
+      {
+        "id": "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+        "quantity": "20"
+      }
+    ],
+    "upkeep": [],
+    "buildTime": 100,
+    "improvements": [
+      {
+        "key": "resourceBonusPercent",
+        "id": "LOJ2B",
+        "value": ["resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5", "10"]
+      },
+      {
+        "key": "resourceBonusPercent",
+        "id": "SCpRw",
+        "value": ["resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a", "10"]
+      },
+      {
+        "key": "resourceBonusPercent",
+        "id": "lDKk9",
+        "value": ["resource-bc76a657-45e0-45ef-895a-91f4418e7adc", "10"]
+      }
+    ],
+    "level": 2,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "id": "building-af8ceda9-f0da-4a83-b14e-64b3cf2ea8a2",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Weapon Smith",
+    "description": "Consumes iron to create high quality weapons",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "200"
+      },
+      {
+        "id": "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+        "quantity": "50"
+      },
+      {
+        "id": "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+        "quantity": "50"
+      }
+    ],
+    "upkeep": [
+      { "id": "resource-bc76a657-45e0-45ef-895a-91f4418e7adc", "quantity": "5" }
+    ],
+    "buildTime": 100,
+    "improvements": [],
+    "level": 2,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "id": "building-c926efb5-63ff-49e0-ae48-f1bd1e023a3d",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Armor Smith",
+    "description": "Consumes iron to create high quality armor",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "200"
+      },
+      {
+        "id": "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+        "quantity": "50"
+      },
+      {
+        "id": "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+        "quantity": "50"
+      }
+    ],
+    "upkeep": [
+      {
+        "id": "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+        "quantity": "10"
+      }
+    ],
+    "buildTime": 100,
+    "improvements": [],
+    "level": 3,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "id": "building-8abb70e8-3bab-4bb0-bbcc-4f5972c28fda",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  },
+  {
+    "name": "Apothecary",
+    "description": "Medicines and herbs to increase health and fertility",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "cost": [
+      {
+        "id": "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5",
+        "quantity": "150"
+      },
+      {
+        "id": "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+        "quantity": "20"
+      },
+      {
+        "id": "resource-026c5412-779c-4119-a2ad-7efef42db437",
+        "quantity": "20"
+      }
+    ],
+    "upkeep": [],
+    "buildTime": 0,
+    "improvements": [
+      { "id": "PopCap", "key": "PopCap", "value": "20" },
+      { "id": "L5Fbl", "key": "PopGrowthRate", "value": [0, "0.05"] }
+    ],
+    "level": 1,
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/buildings%2Fmedieval%20standard%2Fplaceholder-building.jpg?alt=media&token=31490cdc-43d9-40b6-8cd4-a7020ad72897",
+    "id": "building-127f95d6-9760-404b-858d-6d8ab523fd39",
+    "isUpgrade": false,
+    "maxPerSettlement": 1
+  }
+]

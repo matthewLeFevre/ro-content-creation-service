@@ -19,11 +19,11 @@ export default [
       req.services.nation.getAll(),
       req.services.building.getAll(),
       req.services.unit.getAll(),
+      req.services.resource.getAll(),
       req.services.settlement.getAll(),
       req.services.development.getAll(),
       req.services.biome.getAll(),
       req.services.district.getAll(),
-      req.services.event.getAll(),
       req.services.event.getAll(),
       req.services.profile.getAll(),
     ]);

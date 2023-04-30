@@ -1,1 +1,54 @@
-[{"name":"Grassland","description":"Flat open land","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","terrainDifficulty":0,"resourceIds":["resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab"],"color":"#80b47e","backgroundSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","id":"biome-c35c4657-4fb0-470a-9ff3-fad3f3ecd517"},{"name":"Forest","description":"Land filled with trees","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","terrainDifficulty":4,"resourceIds":["resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5"],"color":"#29513b","backgroundSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","id":"biome-1b834ad9-29c5-42c8-acc7-cbd767ab1887"},{"name":"Hills","description":"Land filled with hills","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","terrainDifficulty":3,"resourceIds":["resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","resource-bc76a657-45e0-45ef-895a-91f4418e7adc","resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab"],"color":"#d3c09c","backgroundSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","id":"biome-c527bd62-8da5-4ff2-a31b-39629852dbd1"},{"name":"Mountains","description":"Mountainous Region","datasetIds":["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],"iconSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","terrainDifficulty":8,"resourceIds":["resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a","resource-bc76a657-45e0-45ef-895a-91f4418e7adc","resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5"],"color":"#607b7d","backgroundSrc":"https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f","id":"biome-8864839e-7495-491a-8a6b-ec1435dab49c"}]
+[
+  {
+    "name": "Grassland",
+    "description": "Flat open land",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "terrainDifficulty": 0,
+    "resourceIds": ["resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab"],
+    "color": "#80b47e",
+    "backgroundSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "id": "biome-c35c4657-4fb0-470a-9ff3-fad3f3ecd517"
+  },
+  {
+    "name": "Forest",
+    "description": "Land filled with trees",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "terrainDifficulty": 4,
+    "resourceIds": ["resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5"],
+    "color": "#29513b",
+    "backgroundSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "id": "biome-1b834ad9-29c5-42c8-acc7-cbd767ab1887"
+  },
+  {
+    "name": "Hills",
+    "description": "Land filled with hills",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "terrainDifficulty": 3,
+    "resourceIds": [
+      "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+      "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+      "resource-a8429c8c-9d6f-43db-bc41-8b28a41478ab"
+    ],
+    "color": "#d3c09c",
+    "backgroundSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "id": "biome-c527bd62-8da5-4ff2-a31b-39629852dbd1"
+  },
+  {
+    "name": "Mountains",
+    "description": "Mountainous Region",
+    "datasetIds": ["dataset-7d7cb208-b907-4967-9b60-9fc86a7adb00"],
+    "iconSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "terrainDifficulty": 8,
+    "resourceIds": [
+      "resource-df05f057-04e8-4261-b6fb-0bfe5f3dad4a",
+      "resource-bc76a657-45e0-45ef-895a-91f4418e7adc",
+      "resource-324ae36a-17e8-407a-a4c5-8df4b6bf31c5"
+    ],
+    "color": "#607b7d",
+    "backgroundSrc": "https://firebasestorage.googleapis.com/v0/b/regal-order-ef849.appspot.com/o/icons%2Fbuilder.png?alt=media&token=16c92201-a1e6-47ce-90b1-5095a14bdb5f",
+    "id": "biome-8864839e-7495-491a-8a6b-ec1435dab49c"
+  }
+]

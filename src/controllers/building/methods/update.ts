@@ -16,6 +16,8 @@ const validation = [
   body("improvements").isArray().optional(),
   body("datasetIds").isArray().optional(),
   body("upgradesTo").optional(),
+  body("isUpgrade").optional(),
+  body("maxPerSettlement").optional(),
   validationCheck,
 ];
 

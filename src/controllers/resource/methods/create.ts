@@ -11,6 +11,7 @@ const validation = [
   body("iconSrc").notEmpty().exists(),
   body("datasetIds").notEmpty().exists(),
   body("isUnique").isBoolean().exists(),
+  body("value").isInt().exists(),
   validationCheck,
   datasetCheck(),
 ];

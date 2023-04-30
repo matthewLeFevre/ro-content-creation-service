@@ -15,6 +15,8 @@ const validation = [
   body("upkeep").isArray().exists(),
   body("improvements").isArray().exists(),
   body("datasetIds").isArray().exists(),
+  body("maxPerSettlement").exists(),
+  body("isUpgrade").optional(),
   body("upgradesTo").optional(),
   validationCheck,
   datasetCheck(),
